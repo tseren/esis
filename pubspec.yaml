@@ -1,0 +1,66 @@
+name: esis
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+  device_info: ^0.4.0+1
+  backdrop: ^0.1.8
+  http: ^0.12.0+1
+  json_annotation: ^2.0.0
+  connectivity: ^0.4.2
+  flutter_spinkit: ^3.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+   uses-material-design: true
+   assets:
+   - images/ic_board.png
+   - images/ic_esis.png
+   - images/ic_ministry.png
+   - images/ic_female.png
+   - images/ic_male.png
+   - images/ic_menu.png
+   - images/ic_test.jpg
+   - images/ic_home.png
+   - images/ic_group.png
+   - images/ic_setting.png
+
+   - images/studentmain/ic_homework.png
+   - images/studentmain/ic_huwaari.png
+   - images/studentmain/ic_irts.png
+   - images/studentmain/ic_unelgee.png
+
+
+
+
+   fonts:
+     - family: RobotoBold
+       fonts:
+       - asset: fonts/Roboto-Bold.ttf
+     - family: RobotoLight
+       fonts:
+       - asset: fonts/Roboto-Light.ttf
+     - family: RobotoMedium
+       fonts:
+       - asset: fonts/Roboto-Medium.ttf
+     - family: RobotoRegular
+       fonts:
+       - asset: fonts/Roboto-Regular.ttf
+     - family: RobotoThin
+       fonts:
+       - asset: fonts/Roboto-Thin.ttf
+
+
